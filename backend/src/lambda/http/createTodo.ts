@@ -28,7 +28,7 @@ app.post('/todos', async (_req, res) => {
           'Access-Control-Allow-Origin': '*'
       });
   res.json({
-    items: todo
+    item: todo
   })
 })
 
